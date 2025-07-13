@@ -1,23 +1,23 @@
+
 #include <iostream>
-#include <vector>
-#include <algorithm>
 using namespace std;
 int main() {
-    int a,b;
-    cin>>a>>b;
-    if(a>b){
-        cout<<"a is greater than b";
-    }
-    else{
-        cout<<"b is greater than a";
-    }
-
-
+    int day;
+    cout<<"enter day number: ";
+    cin>>day;
+    if(day==1)
+        cout<<"sunday";
+    else if(day==2)
+        cout<<"monday";
+    else if(day==3)
+        cout<<"tuesday";
+    else if(day==4)
+        cout<<"wednesday";
+    else if(day==5)
+        cout<<"thursday";
+    else if(day==6)
+        cout<<"friday";
+    else if(day==7)
+        cout<<"saturday";
 
 }
-
-
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
